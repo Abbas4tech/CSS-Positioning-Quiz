@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.red,
+.yellow,
+.maroon,
+.purple,
+.black {
+  border: 1px solid black;
+}
+.red {
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellow {
+  background-color: yellow;
+  width: 45%;
+  height: 90%;
+}
+.maroon {
+  background-color: maroon;
+  width: 45%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.purple {
+  background-color: purple;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.black {
+  background-color: black;
+  width: 50%;
+  height: 50%;
+}
